@@ -5,268 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME | SMART CAREER LIMITED</title>
-    <link rel="icon" type="image/jpg"
-        href="E:\father office\father office info\picture\Logo of Smart Career Limited copy.ico">
-    <link rel="stylesheet" href="../SCL/style-sce.css">
-    <!--  name icone -->
+    <link rel="stylesheet" href="../newscl/css_scl.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    * {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  background-size: cover;
-  height: 25%;
-  text-align: center;
-  font-size: 250%;
-}
-
-.header img {
-  margin-right: 10%;
-  height: 90%;
-  width: 20%;
-}
-
-nav {
-  background-color: #333;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(21, 39, 103, 1) 50%,
-    rgba(11, 11, 11, 1) 100%
-  );
-
-  overflow: hidden;
-}
-
-nav a {
-  text-decoration: none;
-  color: aliceblue;
-  text-align: center;
-  padding: 30px;
-  float: left;
-}
-
-a:link {
-  color: antiquewhite;
-}
-
-/*link touch*/
-a:hover {
-  color: hotpink;
-}
-
-a:active {
-  color: red;
-}
-
-.welcome h1,
-h4 {
-  text-align: center;
-  padding: 20px;
-  color: #faf9fa;
-  background-color: #152767;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(21, 39, 103, 1) 50%,
-    rgba(11, 11, 11, 1) 100%);
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-.left img {
-  max-width: 40%;
-  max-height: 30%;
-  float: left;
-  margin-right: 5%;
-  margin-left: 3%;
-  margin-bottom: 4%;
-  border-radius: 5%;
-  box-shadow: 10px 10px 10px 10px lightgray;
-}
-
-.right img {
-  max-width: 45% !important;
-  max-height: 30% !important;
-  float: right;
-  margin-right: 3%;
-  margin-left: 3%;
-  margin-bottom: 4%;
-  border-radius: 5%;
-  box-shadow: 10px 10px 10px 10px lightgray;
-}
-
-.text {
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  text-align: justify;
-}
-
-.chairmanbio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.about-us {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.founder {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.chairman,
-.MD,
-.director {
-  background-color: #faf9fa;
-  width: 600px;
-  height: 500px;
-  box-shadow: 10px 10px 10px 10px lightgray;
-  padding: 40px 40px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  /* Stack items vertically */
-  align-items: center;
-  /* Center items horizontally */
-  text-align: justify;
-}
-
-.baira {
-  display: block;
-  box-shadow: 10px 10px 20px 10px lightgray;
-
-  width: 60%;
-  height: 105%;
-  border: 5px solid #1f0a86;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-us {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.address,
-.Phone {
-  background-color: #faf9fa;
-  width: 500px;
-  height: 600px;
-  box-shadow: 10px 10px 10px 10px lightgray;
-  padding: 70px 70px;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  /* Stack items vertically */
-  align-items: center;
-  /* Center items horizontally */
-  text-align: justify;
-}
-
-.address iframe {
-  height: 50%;
-  width: 130%;
-}
-
-.slideshow-company img {
-  white-space: nowrap;
-  display: inline;
-  max-width: 40%;
-  max-height: 30%;
-  margin-right: 5%;
-  margin-left: 3%;
-  margin-bottom: 4%;
-  border-radius: 5%;
-  /*box-shadow: 10px 10px 10px rgb(249, 247, 247);*/
-}
-.picture{
-  display: flex;
- 
-  margin: 20px 0;
-}
-.picture img {
-
-  max-width: 30%;
-  max-height: 70%;
-  margin-top: 3%;
-  margin-right: 5%;
-  margin-left: 3%;
-  margin-bottom: 4%;
-  border-radius: 5%;
-  box-shadow: 10px 10px 10px rgb(249, 247, 247);
-}
-
-footer {
-  background-color: #000;
-  /*gray color*/
-  overflow: hidden;
-  /*position: fixed;
-      width: 100%;*/
-}
-
-footer a {
-  display: block;
-  text-decoration: none;
-  color: white;
-
-  padding: 18px 25px;
-  float: left;
-}
-
-.right_footer {
-  float: right;
-}
-
-@media screen and (max-width: 1000px) {
-  * {
+    <style>
+       * {
     margin: 0;
     box-sizing: border-box;
   }
-  body {
-    font-size: 14px;
-  }
-
+  
   .header {
     display: flex;
     align-items: center;
     background-size: cover;
     height: 25%;
     text-align: center;
-    font-size: 120%;
+    font-size: 250%;
   }
-
+  
   .header img {
-    margin-right: 5%;
-    margin-left: 5%;
-    height: 65%;
-    width: 35%;
+    margin-right: 10%;
+    height: 90%;
+    width: 20%;
   }
-
+  
   nav {
     background-color: #333;
     background: linear-gradient(
@@ -275,36 +36,34 @@ footer a {
       rgba(21, 39, 103, 1) 50%,
       rgba(11, 11, 11, 1) 100%
     );
-
+  
     overflow: hidden;
   }
-
+  
   nav a {
     text-decoration: none;
     color: aliceblue;
     text-align: center;
-    padding: 15px;
-
+    padding: 30px;
     float: left;
   }
-
+  
   a:link {
     color: antiquewhite;
   }
-
+  
   /*link touch*/
   a:hover {
     color: hotpink;
   }
-
+  
   a:active {
     color: red;
   }
-
+  
   .welcome h1,
   h4 {
     text-align: center;
-    font-size: 180%;
     padding: 20px;
     color: #faf9fa;
     background-color: #152767;
@@ -312,39 +71,47 @@ footer a {
       270deg,
       rgba(0, 0, 0, 1) 0%,
       rgba(21, 39, 103, 1) 50%,
-      rgba(11, 11, 11, 1) 100%
-    );
+      rgba(11, 11, 11, 1) 100%);
   }
-
+  
   .container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-right: 15%;
-    margin-left: 15%;
-  }
-
-  .left img,
-  .right img {
-    max-width: 100%;
-    max-height: 70% !important;
     margin-right: 5%;
     margin-left: 5%;
+  }
+  
+  .left img {
+    max-width: 40%;
+    max-height: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 3%;
     margin-bottom: 4%;
     border-radius: 5%;
     box-shadow: 10px 10px 10px 10px lightgray;
   }
-
-  .text,
-  .text h3,
-  .text h5 .text p {
-    font-size: 40px;
+  
+  .right img {
+    max-width: 45% !important;
+    max-height: 30% !important;
+    float: right;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px 10px lightgray;
+  }
+  
+  .text {
+    font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    text-align: left;
+    text-align: justify;
   }
-
+  
   .chairmanbio {
     display: flex;
     flex-direction: column;
@@ -352,27 +119,27 @@ footer a {
     text-align: center;
     margin-top: 20px;
   }
-
+  
   .about-us {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    width: 100%;
     margin-top: 20px;
   }
-
+  
   .founder {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 10px;
   }
-
+  
   .chairman,
   .MD,
   .director {
     background-color: #faf9fa;
-    width: 80%;
+    width: 600px;
     height: 500px;
     box-shadow: 10px 10px 10px 10px lightgray;
     padding: 40px 40px;
@@ -384,34 +151,32 @@ footer a {
     /* Center items horizontally */
     text-align: justify;
   }
-
+  
   .baira {
     display: block;
     box-shadow: 10px 10px 20px 10px lightgray;
-
-    width: 90%;
-    height: 50%;
+  
+    width: 60%;
+    height: 105%;
     border: 5px solid #1f0a86;
     margin-left: auto;
     margin-right: auto;
   }
-
+  
   .contact-us {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 90%;
   }
-
+  
   .address,
   .Phone {
     background-color: #faf9fa;
     width: 500px;
-    height: 300px;
+    height: 600px;
     box-shadow: 10px 10px 10px 10px lightgray;
     padding: 70px 70px;
-    margin: 10px 10px 10px 10px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     /* Stack items vertically */
@@ -419,84 +184,316 @@ footer a {
     /* Center items horizontally */
     text-align: justify;
   }
-
+  
   .address iframe {
-    height: 70%;
-    width: 110%;
+    height: 50%;
+    width: 130%;
   }
-
+  
   .slideshow-company img {
     white-space: nowrap;
     display: inline;
-    max-width: 50%;
-    max-height: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 4%;
-    border: 5px solid #22065c;
-    border-radius: 5%;
-    margin: 0 10px;
-    box-shadow: 10px 10px 10px rgb(149, 103, 103);
-  }
-
-  .picture img {
-    white-space: nowrap;
-    display: inline;
-    max-width: 50%;
-    max-height: 40%;
-    margin-top: 3%;
+    max-width: 40%;
+    max-height: 30%;
     margin-right: 5%;
     margin-left: 3%;
     margin-bottom: 4%;
     border-radius: 5%;
-    box-shadow: 10px 10px 10px rgb(249, 247, 247);
+    box-shadow: 10px 10px 10px rgb(78, 74, 74);
   }
-
+  .picture img{
+    white-space: nowrap;
+    display: inline;
+    max-width: 20%;
+    max-height: 20%;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    border-radius: 5%;
+    border: 2px solid #000 ;
+    box-shadow: 10px 10px 10px rgb(67, 64, 64);
+  
+  }
+  
   footer {
     background-color: #000;
-    /*black color*/
+    /*gray color*/
     overflow: hidden;
     /*position: fixed;
         width: 100%;*/
   }
-
+  
   footer a {
     display: block;
     text-decoration: none;
     color: white;
-
+  
     padding: 18px 25px;
     float: left;
   }
-
+  
   .right_footer {
     float: right;
   }
-}
-
-</style>
+  
+  @media screen and (max-width: 1000px) {
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-size: 14px;
+    }
+  
+    .header {
+      display: flex;
+      align-items: center;
+      background-size: cover;
+      height: 25%;
+      text-align: center;
+      font-size: 120%;
+    }
+  
+    .header img {
+      margin-right: 5%;
+      margin-left: 5%;
+      height: 65%;
+      width: 35%;
+    }
+  
+    nav {
+      background-color: #333;
+      background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(21, 39, 103, 1) 50%,
+        rgba(11, 11, 11, 1) 100%
+      );
+  
+      overflow: hidden;
+    }
+  
+    nav a {
+      text-decoration: none;
+      color: aliceblue;
+      text-align: center;
+      padding: 15px;
+  
+      float: left;
+    }
+  
+    a:link {
+      color: antiquewhite;
+    }
+  
+    /*link touch*/
+    a:hover {
+      color: hotpink;
+    }
+  
+    a:active {
+      color: red;
+    }
+  
+    .welcome h1,
+    h4 {
+      text-align: center;
+      font-size: 180%;
+      padding: 20px;
+      color: #faf9fa;
+      background-color: #152767;
+      background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(21, 39, 103, 1) 50%,
+        rgba(11, 11, 11, 1) 100%
+      );
+    }
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-right: 15%;
+      margin-left: 15%;
+    }
+  
+    .left img,
+    .right img {
+      max-width: 100%;
+      max-height: 70% !important;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-bottom: 4%;
+      border-radius: 5%;
+      box-shadow: 10px 10px 10px 10px lightgray;
+    }
+  
+    .text,
+    .text h3,
+    .text h5 .text p {
+      font-size: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      text-align: left;
+    }
+  
+    .chairmanbio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .about-us {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .founder {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+  
+    .chairman,
+    .MD,
+    .director {
+      background-color: #faf9fa;
+      width: 80%;
+      height: 500px;
+      box-shadow: 10px 10px 10px 10px lightgray;
+      padding: 40px 40px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      /* Stack items vertically */
+      align-items: center;
+      /* Center items horizontally */
+      text-align: justify;
+    }
+  
+    .baira {
+      display: block;
+      box-shadow: 10px 10px 20px 10px lightgray;
+  
+      width: 90%;
+      height: 50%;
+      border: 5px solid #1f0a86;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .contact-us {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 90%;
+    }
+  
+    .address,
+    .Phone {
+      background-color: #faf9fa;
+      width: 500px;
+      height: 300px;
+      box-shadow: 10px 10px 10px 10px lightgray;
+      padding: 70px 70px;
+      margin: 10px 10px 10px 10px;
+      display: flex;
+      flex-direction: column;
+      /* Stack items vertically */
+      align-items: center;
+      /* Center items horizontally */
+      text-align: justify;
+    }
+  
+    .address iframe {
+      height: 70%;
+      width: 110%;
+    }
+  
+    .slideshow-company img {
+      white-space: nowrap;
+      display: inline;
+      max-width: 35%;
+      max-height: 40%;
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      border: 5px solid #22065c;
+      border-radius: 5%;
+      margin: 0 10px;
+      box-shadow: 10px 10px 10px rgb(149, 103, 103);
+    }
+  
+    .picture img{
+      white-space: nowrap;
+      display: inline;
+      max-width: 35%;
+      max-height: 20%;
+      padding-left: 3px;
+      padding-right: 3px;
+      margin-right: 5%;
+      margin-left: 3%;
+      margin-bottom: 4%;
+      border-radius: 5%;
+      border: 2px solid #000 ;
+      box-shadow: 10px 10px 10px rgb(67, 64, 64);
+    
+    }
+    footer {
+      background-color: #000;
+      /*black color*/
+      overflow: hidden;
+      /*position: fixed;
+          width: 100%;*/
+    }
+  
+    footer a {
+      display: block;
+      text-decoration: none;
+      color: white;
+  
+      padding: 18px 25px;
+      float: left;
+    }
+  
+    .right_footer {
+      float: right;
+    }
+  }
+   
+    </style>
 </head>
 
 <body>
-    <div class="header">
-        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/logo-of-scl.png">
-        <header>
-            <h1>SMART CAREER LIMITED</h1>
-        </header>
-    </div>
-    <nav>
-        <a href="#welcome_SCL">Home</a>
-        <a href="#employers_seeking">EMPLOYERS SEEKING</a>
-        <a href="#board_of_directors">ABOUT US</a>
-        <a href="#baira_info">BAIRA MEMBERSHIP INFORMETION</a>
-        <a href="#location">CONTACT US</a>
-        <a href="#services">SERVICES</a>
-        <a href="#associative_partners">ASSOCIATIVE PARTNERS</a>
-        <a href="#media">MEDIA</a>
-
-    </nav>
-
     <main>
+        <div class="header">
+            <img src="../SCL/picture/logo-of-scl.png">
+            <header>
+                <h1>SMART CAREER LIMITED</h1>
+            </header>
+        </div>
+        <nav>
+            <a href="#welcome_SCL">Home</a>
+            <a href="#employers_seeking">EMPLOYERS SEEKING</a>
+            <a href="#board_of_directors">ABOUT US</a>
+            <a href="#baira_info">BAIRA MEMBERSHIP INFORMETION</a>
+            <a href="#location">CONTACT US</a>
+            <a href="#services">SERVICES</a>
+            <a href="#associative_partners">ASSOCIATIVE PARTNERS</a>
+            <a href="#media">MEDIA</a>
+
+        </nav>
         <!--welcome info about scl-->
         <section id="welcome_SCL">
             <span class="welcome">
@@ -506,13 +503,17 @@ footer a {
             <br><br>
             <div class="container">
                 <div class="left">
-                    <img src="https://drive.google.com/file/d/1piM3MH4HfoJe9Fkvl1KW0uw3sDxSFezH/view?usp=drive_link">
+                    <img src="slideshow1.jpg">
+
                     <span class="text">
                         <p>
-                            Owning the <b>License No. RL-1993, SMART CAREER LIMITED (SCL) </b> one of the topmost personnel
+                            Owning the <b>License No. RL-1993, SMART CAREER LIMITED (SCL) </b> one of the topmost
+                            personnel
                             recruitment agencies in Bangladesh which has been approved by the government. Established
-                            under the visionary leadership of<b> MR. SALEH AHMMED BHUIYAN </b> - Dynamically skilled Chairman,
-                            <b>MR. MD. MAMUNUR RASHID</b> - Extremely qualified Managing Director, and <b>MD. OMAR FARUQUE</b> -
+                            under the visionary leadership of<b> MR. SALEH AHMMED BHUIYAN </b> - Dynamically skilled
+                            Chairman,
+                            <b>MR. MD. MAMUNUR RASHID</b> - Extremely qualified Managing Director, and <b>MD. OMAR
+                                FARUQUE</b> -
                             Energetic Director of this diverse business conglomerate; Smart Career Limited (SCL) is a
                             benchmark in the field of personnel market. Inspired by a resolute drive to quality, SCL has
                             grown into a major force in Bangladesh's workforce services industry and renowned for its
@@ -521,26 +522,30 @@ footer a {
 
                         </p><br>
                         <p>
-                            Escorted by the exclusive guidance of <b>MR. SALEH AHMMED BHUIAYN</b> and fueled by the relentless
-                            efforts of <b>MR. MD. MAMUNUR RASHID, MR. OMAR FARUQUE & our zestful team</b>, SCL commenced its
+                            Escorted by the exclusive guidance of <b>MR. SALEH AHMMED BHUIAYN</b> and fueled by the
+                            relentless
+                            efforts of <b>MR. MD. MAMUNUR RASHID, MR. OMAR FARUQUE & our zestful team</b>, SCL commenced
+                            its
                             journey by providing skilled, semi-skilled, and non-skilled manpower to the Middle East.
-                            <b>Smart Career Limited (SCL)</b> owes its success to the combined power of a creative workforce, a
-                            world-class support team, and the unswerving loyalty of our esteemed clientele. </p>
+                            <b>Smart Career Limited (SCL)</b> owes its success to the combined power of a creative
+                            workforce, a
+                            world-class support team, and the unswerving loyalty of our esteemed clientele.
+                        </p>
                     </span>
                 </div>
             </div>
             <div class="container">
                 <div class="right">
-                    <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/2nd-image.jpg">
+                    <img src="2nd-image.jpg">
                     <span class="text">
-                        <P>
+                        <p>
                             SCL has successfully expanded its footprint to Qatar, Abu Dhabi, Saudi Arabia, Malaysia
                             embracing the strategy of perpetual advancement alongside relentless pursuit of new
                             opportunities and aims to venture into other countries in future. Our resounding success is
                             a testament to our commitment to delivering excellence in recruitment consultancy and
                             related services.
 
-                        </P>
+                        </p>
                         <br>
                         <p>
                             At SCL, our Mission and Objectives serve as guiding beacons, propelling us to deliver
@@ -554,7 +559,7 @@ footer a {
 
             <div class="container">
                 <div class="right">
-                    <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/3rd-image.jpg">
+                    <img src="4th-image.jpg">
                     <span class="text">
                         <p>
                             Here, we consistently surpass expectations in our recruitment endeavors by investing
@@ -578,7 +583,7 @@ footer a {
                                 clients have propelled us to establish strong partnerships with esteemed organizations
                                 in the Middle East. We firmly believe that the quest for perfection knows no bounds,
                                 prompting us to continually push beyond our current achievements.
-
+                            </b>
                         </p>
                     </span>
                 </div>
@@ -594,7 +599,7 @@ footer a {
             <br>
             <div class="container">
                 <div class="left">
-                    <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/employer-seeking.jpg">
+                    <img src="employer-seeking.jpg">
                     <div class="text">
                         <h3>
                             Guidance for Employers Seeking Talent Through Our Agency:
@@ -626,7 +631,7 @@ footer a {
             </div>
             <div class="container">
                 <div class="left">
-                    <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/employ-seeking2.jpg" style="height:70%;">
+                    <img src="employ-seeking2.jpg" style="height:70%;">
 
                     <div class="text">
                         <h5>4. Candidate Shortlisting:</h5>
@@ -677,7 +682,7 @@ footer a {
             <br>
             <div class="chairmanbio">
                 <div class="chairman">
-                    <img class="founder" src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/logo-of-scl.pngg">
+                    <img class="founder" src="logo-of-scl.png">
                     <h1>
                         CHAIRMAN & FOUNDER
                     </h1>
@@ -688,7 +693,7 @@ footer a {
             </div>
             <div class="about-us">
                 <div class="MD">
-                    <img class="founder" src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/logo-of-scl.png">
+                    <img class="founder" src="logo-of-scl.png">
                     <br>
                     <h1>MANAGING DIRECTOR & CO-FOUNDER</h1>
                     <br>
@@ -696,7 +701,7 @@ footer a {
                 </div>
 
                 <div class="director">
-                    <img class="founder" src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/logo-of-scl.png">
+                    <img class="founder" src="logo-of-scl.png">
                     <br>
                     <h1>
                         DIRECTOR & CO-FOUNDER
@@ -713,7 +718,7 @@ footer a {
                     BAIRA MEMBERSHIP INFORMETION
                 </h1>
                 <br>
-                <img class="baira" src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/BAIRA-SCL.png">
+                <img class="baira" src="BAIRA-SCL.png">
             </span>
         </section>
         <br><br>
@@ -763,7 +768,7 @@ footer a {
             </span><br>
             <div class="container">
                 <div class="left">
-                    <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/constraction.jpg"><br>
+                    <img src="../constraction.jpg"><br>
                     <div class="text">
                         <p>
                             1. <b>Construction Team: </b><br> Includes Civil, Electrical, and Mechanical Engineers,
@@ -778,7 +783,7 @@ footer a {
                             3. <b>Supermarket Workforce:</b><br> Provides staffing solutions for supermarkets, covering
                             positions like Managers, Data Entry Clerks, Salesmen, Store Keepers, Butchers, Cashiers,
                             Loaders, and more.
-
+                        </p>
                     </div>
                 </div><br>
             </div>
@@ -793,84 +798,81 @@ footer a {
 
             </span>
             <div class="slideshow-company">
-                <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/suhul-albeeh.png">
-                <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/adnoc.png">
-                <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/riyadh_foundry.jpg">
+                <img src="../suhul-albeeh.png">
+                <img src="../adnoc.png">
+                <img src="../riyadh_foundry.jpg">
+                <img src="../maharah_human_resources.jpeg">
 
 
             </div>
-            </div>
-            <section id="media">
-                <span class="welcome">
-                    <h1>
-                        Media & Picture
-                    </h1>
-                </span>
-                <div class="container">
-                    <div class="Picture">
-                        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/BAIRA-SCL.png">
-                        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/logo-of-scl.png">
-                        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/Certificate-of-SCL.jpg">
-                        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/media%20job%20info.jpg">
-                        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/media%20job%20info%202.jpg">
-                        <img src="https://github.com/faysalahmedbhuiyan/website-GHA/blob/main/media%20job%20info%203.jpg">
-
-                    </div>
-                </div>
-            </section>
-            <!--extra services of scl-->
+        </section>
+        <section id="media">
             <span class="welcome">
                 <h1>
-                    REASON TO CHOOSE US?
+                    Media And Picture
+
                 </h1>
+
             </span>
-            <h4>
-                <i class="fa fa-graduation-cap icon"></i> <b>Provisions of copies of certificates</b> <i></i>
-            </h4>
-            <div class="container">
-                <span class="text"><br> During the pre-selection process, we will meticulously gather copies of
-                    certificates from esteemed technical and trade schools, along with the certificates of employment
-                    references. These documents will constitute an integral part of each candidate's personal file. Our
-                    commitment to thoroughness ensures that we recognize and value the qualifications and professional
-                    background of every individual, creating a comprehensive profile that reflects the caliber of our
-                    prospective team members.
-
-                </span>
-            </div>
-            <h4>
-                <i class="fa fa-certificate icon"></i> <b>Health certificates</b> <i
-                    class="fa fa-check-circle icon"></i>
-            </h4>
-            <div class="container">
-                <span class="text"><br> Embracing a shield of protection, our employees proudly wear the armor of health
-                    – a vaccination, not just endorsed by our nation's medical authorities but also celebrated by the
-                    esteemed World Health Organization. In our commitment to a thriving workplace, this crucial
-                    vaccination is not just a shot in the arm; it's a cornerstone of our collective well-being, etched
-                    into the very fabric of our employee documentation. Let's stand united, not only in the pursuit of
-                    professional excellence but in safeguarding the health and vitality of our team. Together, we write
-                    a narrative of resilience, strength, and a shared commitment to a healthier future.
-                </span>
-            </div>
-            <h4>
-                <i class="fa fa-connectdevelop icon"></i> <b>Development</b> <i class="fa fa-check-circle icon"></i>
-            </h4>
-            <div class="container">
-                <span class="text"><br> After swiftly securing your original work permit within a mere 21 days, we
-                    embark on the next phase of our seamless process. With precision and dedication, we orchestrate the
-                    arrangement of your travel ticket and essential documents. As a thoughtful touch, we proactively
-                    share the flight details well in advance with your prospective employer, ensuring a smooth
-                    transition to this exciting new chapter in your professional journey. Your success is our priority,
-                    and our attention to detail reflects our commitment to making every step of your relocation as
-                    efficient and delightful as possible.
-                </span>
-            </div>
-            </div>
+            <div class="picture"><br>
+                <img src="../Certificate-of-SCL.jpg">
+                <img src="../BAIRA-SCL.png">
+                <img src="../logo-of-scl.png">
+                <img src="..media job info.jpg">
+                <img src="../media job info 2.jpg">
+                <img src="../media job info 3.jpg">
 
 
+            </div>
+        </section>
+ 
+        <!--extra services of scl-->
+        <span class="welcome">
+            <h1>
+                REASON TO CHOOSE US?
+            </h1>
+        </span>
+        <h4>
+            <i class="fa fa-graduation-cap icon"></i> <b>Provisions of copies of certificates</b> <i></i>
+        </h4>
+        <div class="container">
+            <span class="text"><br> During the pre-selection process, we will meticulously gather copies of
+                certificates from esteemed technical and trade schools, along with the certificates of employment
+                references. These documents will constitute an integral part of each candidate's personal file. Our
+                commitment to thoroughness ensures that we recognize and value the qualifications and professional
+                background of every individual, creating a comprehensive profile that reflects the caliber of our
+                prospective team members.
 
+            </span>
+        </div>
+        <h4>
+            <i class="fa fa-certificate icon"></i> <b>Health certificates</b> <i class="fa fa-check-circle icon"></i>
+        </h4>
+        <div class="container">
+            <span class="text"><br> Embracing a shield of protection, our employees proudly wear the armor of health
+                – a vaccination, not just endorsed by our nation's medical authorities but also celebrated by the
+                esteemed World Health Organization. In our commitment to a thriving workplace, this crucial
+                vaccination is not just a shot in the arm; it's a cornerstone of our collective well-being, etched
+                into the very fabric of our employee documentation. Let's stand united, not only in the pursuit of
+                professional excellence but in safeguarding the health and vitality of our team. Together, we write
+                a narrative of resilience, strength, and a shared commitment to a healthier future.
+            </span>
+        </div>
+        <h4>
+            <i class="fa fa-connectdevelop icon"></i> <b>Development</b> <i class="fa fa-check-circle icon"></i>
+        </h4>
+        <div class="container">
+            <span class="text"><br> After swiftly securing your original work permit within a mere 21 days, we
+                embark on the next phase of our seamless process. With precision and dedication, we orchestrate the
+                arrangement of your travel ticket and essential documents. As a thoughtful touch, we proactively
+                share the flight details well in advance with your prospective employer, ensuring a smooth
+                transition to this exciting new chapter in your professional journey. Your success is our priority,
+                and our attention to detail reflects our commitment to making every step of your relocation as
+                efficient and delightful as possible.
+            </span>
+        </div>
 
     </main>
-
     <footer>
         <a href="#media">Media</a>
         <a href="#location">Contact Us</a>
@@ -881,8 +883,8 @@ footer a {
 
 
     </footer>
-    <script>
-        // Add smooth scrolling behavior when clicking on links
+
+    <script>   // Add smooth scrolling behavior when clicking on links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -891,8 +893,7 @@ footer a {
                     behavior: 'smooth'
                 });
             });
-        });
-    </script>
+        });</script>
 
 </body>
 
